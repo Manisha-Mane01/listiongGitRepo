@@ -110,20 +110,6 @@ button {
     margin-bottom: 15px;
     margin-top: 10px;
 }
-.location-info {
-    display: flex;
-    align-items: center;
-}
-
-.location-info i {
-    margin-right: 5px;
-    /* Adjust the margin as needed */
-}
-
-.twitter-info {
-    display: flex;
-    align-items: center;
-}
 
 @keyframes spin {
     0% {
