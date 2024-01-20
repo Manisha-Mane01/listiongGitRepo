@@ -32,15 +32,8 @@ function fetchUserInfoAndRepositories() {
             // Update user info
             userInfo.innerHTML = `
             <h2>${user.name || 'Name goes here'}</h2>
-                        <p>${user.bio || 'Bio goes here'}</p>
-                        <div class="location-info">
-                        <i class="material-icons">place</i>
-                        <p>${user.location || 'Location not specified'}</p>
-                    </div>
-                    <div class="twitter-info">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/${user.twitter_username}" target="_blank">${user.twitter_username || 'Twitter handle not specified'}</a>
-                    </div>
+            <p>${user.bio || 'Bio goes here'}</p>
+                
         `;
 
             // Fetch repositories
