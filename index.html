@@ -4,28 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="styles.css"> -->
     <title>GitHub Repositories</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <!-- <div class="container"> -->
     <h1>GitHub Repositories</h1>
     <div id="profile-section">
         <div>
             <img id="profile-picture" src="" alt="Profile Picture">
         </div>
-        <div id="user-info">
-            <!-- Username, Bio, and Repositories will be dynamically added here -->
-        </div>
-        <!-- Inbut box for taking username -->
+        <div id="user-info"></div>
         <div class="options">
             <label for="username">GitHub Username:</label>
             <input type="text" id="username" placeholder="Enter GitHub username">
-            <button id="fetchButton" onclick="fetchUserInfoAndRepositories()">FetchRepo</button>
+            <label for="reposPerPage" id="repopage">Repositories per Page:</label>
+            <select id="reposPerPage" onchange="changeReposPerPage()">
+                <option value="100" selected>100</option>
+                <option value="50">50</option>
+                <option value="25">25</option>
+                <option value="10" selected>10</option>
+                <option value="5" selected>5</option>
+        <!-- Add more options as needed -->
+    </select>
+            <button id="fetchButton">Fetch Repo</button>
         </div>
     </div>
     <div id="loader" class="loader"></div>
@@ -35,7 +40,6 @@
     </div>
     <div id="repositories" class="repositories"></div>
     <div id="pagination" class="pagination"></div>
-
     <script src="scripts.js"></script>
 
 </body>
