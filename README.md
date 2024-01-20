@@ -1,5 +1,5 @@
 <h1>Fyle Web Development Internship Channel</h1>
-<h2>Project Title:</h2><b><a href="https://foodiebasket.azurewebsites.net/"> Github Repositories listing page.</b></a>
+<h2>Project Title:</h2><b><a href="https://manisha-mane01.github.io/listiongGitRepo/"> Github Repositories listing page.</b></a>
 <br>
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> <a>https://foodiebasket.azurewebsites.net/ </a><br>
@@ -23,4 +23,4 @@
         <li>Use the pagination controls to navigate through the repositories.</li>
         <li>Optionally, use the search bar to filter repositories based on keywords.</li>
     </ol>
-<b><a href="https://foodiebasket.azurewebsites.net/">Github Repositories listing page</b></a>
+<b><a href="https://manisha-mane01.github.io/listiongGitRepo/">Github Repositories listing page</b></a>
