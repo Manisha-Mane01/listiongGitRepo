@@ -6,9 +6,9 @@
 <b>Github Repository URL :</b> <a>https://github.com/Manisha-Mane01/listiongGitRepo.git</a> <br>
 
 <h2>Problem Statement</h2>
-<p align="justify">Traditional food ordering systems often lack efficient user support, leading to user dissatisfaction and increased support workload. Manually managing FAQs can be time-consuming, and users may struggle to find relevant information. The need arises for an automated solution that streamlines food order operations and enhances user support.</p>
+<p align="justify">Design a web application that fetches and displays the public GitHub repositories belonging to a specific user. The goal is to create a user-friendly interface with features like pagination, loading indicators, and optional repository filtering.</p>
 <h2>Project Description</h2>
-<p align="justify">The Food Order Management System is designed to simplify food ordering processes. Users can add products to their cart, manage orders, and complete checkouts seamlessly. The integration of a Chatbot powered by Azure AI Services enriches the user experience by providing quick access to a comprehensive FAQs section. Users can ask questions related to the food ordering process, and the Chatbot intelligently responds with relevant information.</p><br>
+<p align="justify">The GitHub Repo Listing project is a web application designed to showcase a user's public GitHub repositories in an organized and user-friendly manner. The application will fetch data from the GitHub API, allowing users to explore repositories easily..</p><br>
 <b>Key Features :</b>
 <ul>
     <li>Display Repositories</li>
