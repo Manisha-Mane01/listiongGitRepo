@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>GitHub Repositories</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- <div class="container"> -->
+    <h1>GitHub Repositories</h1>
+    <div id="profile-section">
+        <div>
+            <img id="profile-picture" src="" alt="Profile Picture">
+        </div>
+        <div id="user-info">
+            <!-- Username, Bio, and Repositories will be dynamically added here -->
+        </div>
+        <!-- Inbut box for taking username -->
+        <div class="options">
+            <label for="username">GitHub Username:</label>
+            <input type="text" id="username" placeholder="Enter GitHub username">
+            <button onclick="fetchUserInfoAndRepositories()">FetchRepo</button>
+        </div>
+    </div>
+    <div id="loader" class="loader"></div>
+    <div id="github-link">
+        <i class="material-icons">attachment</i>
+        <a href="" target="_blank" id="github-username">GitHub Username</a>
+    </div>
+    <div id="repositories" class="repositories"></div>
+    <div id="pagination" class="pagination"></div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
