@@ -39,7 +39,9 @@ h1 {
 #reposPerPage {
     padding-right: 10px;
 }
-
+#repopage{
+    padding-left: 10px;
+}
 #github-link {
     display: flex;
     align-items: center;
